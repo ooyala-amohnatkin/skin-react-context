@@ -11,10 +11,10 @@ class ControlBar extends PureComponent {
   handleClick = (event) => {
     event.preventDefault();
     const {
-      togglePlayPause,
+      onButtonPress,
     } = this.props;
 
-    togglePlayPause();
+    onButtonPress();
   };
 
   render() {
